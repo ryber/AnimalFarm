@@ -1,8 +1,8 @@
 package AnimalFarm;
 
-public class Cow extends Animal<Plant> {
+public class Tiger extends Animal<Meat> {
     @Override
     public String speak() {
-        return "Moooo";
+        return null;
     }
 }
