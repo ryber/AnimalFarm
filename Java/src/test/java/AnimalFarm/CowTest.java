@@ -1,5 +1,6 @@
 package AnimalFarm;
 
+import AnimalFarm.animals.Cow;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;

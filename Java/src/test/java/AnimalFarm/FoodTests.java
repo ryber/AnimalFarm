@@ -1,5 +1,9 @@
 package AnimalFarm;
 
+import AnimalFarm.animals.Cow;
+import AnimalFarm.animals.Human;
+import AnimalFarm.animals.Tiger;
+import AnimalFarm.plants.Grass;
 import org.junit.Before;
 import org.junit.Test;
 
