@@ -18,7 +18,6 @@ public abstract class Animal<DietType extends Food> implements Meat {
 
     public void eat(DietType food){
        stomachContents = food;
-
     }
 
     public boolean isHungry() {
