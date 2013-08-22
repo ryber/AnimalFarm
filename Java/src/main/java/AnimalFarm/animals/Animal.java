@@ -21,18 +21,8 @@ public abstract class Animal<DietType extends Food> implements Meat {
 
     }
 
-    public Size size(){
-        return size;
-    }
-
-
-    public int getCalories() {
-        return size.getCalories();
-    }
-
     public boolean isHungry() {
         return stomachContents == null;
     }
 
-    public static class FoodIsTooBigException extends RuntimeException {}
 }

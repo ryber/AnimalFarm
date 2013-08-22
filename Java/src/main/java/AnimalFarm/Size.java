@@ -1,19 +1,19 @@
 package AnimalFarm;
 
 public enum Size {
-    tiny(10), small(50), medium(100), large(1000), huge(10000);
+    tiny(1), small(10), medium(70), large(200), huge(5000);
 
-    private int calories;
+    private int kilograms;
 
-    Size(int calories) {
-        this.calories = calories;
+    Size(int kilograms) {
+        this.kilograms = kilograms;
     }
 
-    public int getCalories(){
-       return calories;
+    public int weight(){
+       return kilograms;
     }
 
     public boolean isLargerThan(Size size) {
-        return calories >  size.getCalories();
+        return kilograms >  size.weight();
     }
 }
