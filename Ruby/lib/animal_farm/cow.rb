@@ -1,5 +1,5 @@
 module AnimalFarm
-	class Cow < Animal
+	class Cow < Herbivore
 		def speak
 			return "Mooooo"
 		end
