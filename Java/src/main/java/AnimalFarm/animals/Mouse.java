@@ -1,9 +1,8 @@
 package AnimalFarm.animals;
 
-import AnimalFarm.Food;
 import AnimalFarm.Size;
 
-public class Mouse extends Animal<Food> {
+public class Mouse extends Omnivore {
 
     public Mouse() {
         super(Size.tiny);

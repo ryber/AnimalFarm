@@ -2,7 +2,6 @@ package AnimalFarm;
 
 import AnimalFarm.animals.Animal;
 import AnimalFarm.animals.Cow;
-import AnimalFarm.animals.Mouse;
 import AnimalFarm.animals.Tiger;
 import org.junit.Test;
 
@@ -19,6 +18,8 @@ public class AnimalTest {
         assertTrue(animal.isHungry());
 
         animal.eat(food);
+
+        food.eat(animal);
 
         assertFalse(animal.isHungry());
     }

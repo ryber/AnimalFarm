@@ -1,9 +1,9 @@
 package AnimalFarm.animals;
 
-import AnimalFarm.Plant;
+import AnimalFarm.Food;
 import AnimalFarm.Size;
 
-public class Cow extends Animal<Plant> {
+public class Cow extends Herbivore {
 
     public Cow() {
         super(Size.large);
@@ -12,5 +12,12 @@ public class Cow extends Animal<Plant> {
     @Override
     public String speak() {
         return "Moooo";
+    }
+
+    public Milk milk(){
+        return new Milk();
+    }
+
+    private class Milk implements Food {
     }
 }

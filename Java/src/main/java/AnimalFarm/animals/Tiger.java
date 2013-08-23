@@ -1,9 +1,8 @@
 package AnimalFarm.animals;
 
-import AnimalFarm.Meat;
 import AnimalFarm.Size;
 
-public class Tiger extends Animal<Meat> {
+public class Tiger extends Carnivore {
 
     public Tiger() {
         super(Size.large);
